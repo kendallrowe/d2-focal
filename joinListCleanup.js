@@ -12,8 +12,8 @@ const joinList = function(arrayStringInputs) {
 };
 
 const isLastString = function(arrayToCheck, index) {
-  return index === arrayToCheck.length - 1
-}
+  return index === arrayToCheck.length - 1;
+};
 
 const conceptList = ["gists", "types", "operators", "iteration", "problem solving"];
 const concepts = joinList(conceptList);
